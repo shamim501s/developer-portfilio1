@@ -234,3 +234,43 @@ nav {
     justify-content: center;
     margin: 0 auto;
 }
+
+/* section let style */
+
+.let-area {
+    margin: 30px 60px 20px 100px;
+}
+
+.let-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.let-lelf h2 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.form-box h5 {}
+
+.form-box input {
+    width: 100%;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #c2c1da;
+}
+
+.form-box textarea {
+    width: 100%;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #c2c1da;
+}
