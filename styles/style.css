@@ -197,3 +197,40 @@ nav {
 .review-display {
     display: flex;
 }
+
+/* section ready area */
+
+.ready-area {
+    margin: 30px 60px 20px 100px;
+
+}
+
+.ready-container {}
+
+.writing-part {
+    text-align: center;
+}
+
+.writing-part h4 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.writing-part p {
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.writing-part button {
+    margin-bottom: 20px;
+}
+
+.ready-img img {
+    width: 650px;
+    height: 260px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
