@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.roboto-normal {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+/* common area style */
+
+.primary-btn {
+    color: #FFF;
+    font-weight: 700;
+    background-color: #4E47FF;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    transition: 1s;
+}
+
+.primary-btn:hover {
+    color: black;
+    background-color: aquamarine;
+}
+
+
+
+
+/* header sytyle start */
+
+header {
+    background-image: url(../Assets/Hero-bg.png);
+
+}
+
+/* nav style */
+
+.logo {
+    color: #4E47FF;
+    font-size: 34px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 90px 0 100px;
+}
+
+.heading-description {
+    margin: 15px auto;
+    width: 650px;
+    height: 260px;
+
+}
+
+.header-title {
+    text-align: center;
+}
+
+.header-title h2 {
+    font-size: 49px;
+    font-weight: 700;
+    margin-top: 46px;
+    margin-bottom: 19px;
+}
+
+/* header sytyle end */
+
+/* main style start */
+
+/* section see description style */
+
+.see-description-area {
+    margin: 55px 60px 20px 100px;
+}
+
+.see-container {
+    display: flex;
+    gap: 290px;
+}
+
+.see-title {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.sub-title {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.see-right img {
+    width: 240px;
+    height: 210px;
+    border-radius: 24px;
+}
+
+
+/* main style end */
+
+/* section productive user area */
+
+.productive-user-area {
+    margin: 30px 60px 20px 100px;
+    background-color: #c2c1da;
+    border-radius: 15px;
+}
+
+.user-container {
+    padding: 60px 124px;
+}
+
+.productive-user-title {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.user-itams {
+    display: flex;
+    justify-content: space-around;
+}
+
+.user-title {
+    font-size: 60px;
+    font-weight: 700;
+    color: #4E47FF;
+}
+
+.user-description {
+    font-size: 14px;
+    color: gray;
+}
