@@ -141,3 +141,59 @@ nav {
     font-size: 14px;
     color: gray;
 }
+
+/* section review style */
+
+.review-area {
+    margin: 30px 60px 20px 100px;
+    border: 1px solid red;
+}
+
+.review-heading {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.star {
+    margin-bottom: 10px;
+}
+
+.review-title-area h4 {
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.review-img {
+    display: flex;
+
+}
+
+.review-img img {
+    border-radius: 40px;
+}
+
+.small-title {
+    align-items: center;
+    margin-top: 2px;
+}
+
+.small-title h6 {
+    color: rgb(37, 33, 33);
+}
+
+.small-title p {
+    color: gray;
+    font-size: 14px;
+}
+
+
+
+.review-display {
+    display: flex;
+}
